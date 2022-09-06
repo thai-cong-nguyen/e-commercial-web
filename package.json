@@ -1,0 +1,34 @@
+{
+  "name": "e-commercial-web",
+  "version": "1.0.0",
+  "description": "Demo E-Commercial Website",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect=3000 src/index.js",
+    "watch": "node-sass -w src/resources/scss/app.scss src/public/css/app.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thai-cong-nguyen/e-commercial-web.git"
+  },
+  "keywords": [
+    "thaicong"
+  ],
+  "author": "Thai Cong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thai-cong-nguyen/e-commercial-web/issues"
+  },
+  "homepage": "https://github.com/thai-cong-nguyen/e-commercial-web#readme",
+  "devDependencies": {
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "handlebars": "^4.7.7",
+    "mongoose": "^6.5.4",
+    "morgan": "^1.10.0",
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19",
+    "path": "^0.12.7"
+  }
+}
